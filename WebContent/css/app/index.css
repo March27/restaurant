@@ -1,0 +1,299 @@
+/*index*/
+body{
+    /*height: 100%;*/
+    /*position:relative;*/
+}
+.resname{
+    color: white;
+    font-size: 20px;
+    height: 50px;
+    line-height: 50px;
+    padding: 20px;
+    float: left;
+}
+.bannerul{
+    list-style-type: none;
+    overflow: hidden;
+    margin-right: 50px;
+    /*background-color: black;*/
+    height: 100px;
+    line-height: 100px;
+
+}
+.bannerli{
+    float: right;
+}
+.bannerli a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+    font-size: 30px;
+}
+a:hover:not(.active) {
+    color: black;
+}
+#banner{
+    background-color: darkseagreen;
+    /*position: fixed;*/
+
+}
+.footer{
+    background-color: darkseagreen;
+    overflow: hidden;
+    margin-top: 30px;
+
+}
+.footer a{
+    float: right;
+    display: block;
+    color: white;
+    padding: 15px;
+    background-color: seagreen;
+}
+.footer a:hover{
+    /*background-color: seagreen;*/
+}
+
+.login{
+    border:2px solid #a1a1a1;
+    padding:10px 20px;
+    background:white;
+    width:150px;
+    border-radius:10px;
+
+}
+#content{
+    margin-left: 50px;
+    margin-right: 50px;
+    clear: both;
+}
+.carul{
+    list-style-type: none;
+
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.pricespan{
+text-align: right;
+}
+
+.left{
+    border:2px solid #a1a1a1;
+    padding:10px 20px;
+    background:white;
+    width:190px;
+    box-shadow: 10px 10px 5px #888888;
+    float: left;
+    margin-right: 50px;
+}
+.right{
+    overflow: hidden;
+}
+.leftcontent{
+    height: 100%;
+    background-color: #cccccc;
+    overflow: auto;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+.rightheader{
+    background-color: darkseagreen;
+
+}
+
+.rightheader a{
+    padding-right: 10px;
+    color: white;
+}
+div .img{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 230px;
+    height:210px;
+}
+div.img:hover {
+    border: 1px solid #777;
+}
+div.img img {
+    width:230px;
+    height:130px;
+}
+.imgkuang{
+    width:230px;
+    height:130px;
+}
+.btn{
+    outline: none;
+}
+.spfloat{
+    float: right;
+}
+.imgma{
+    margin: 10px;
+}
+.clearfix:after{
+    clear: both;
+    content: "";
+    display: table;
+    padding-top: 30px;
+    text-align: center;
+}
+.page{
+    clear: both;
+    text-align: center;
+}
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+
+}
+
+ul.pagination li {display: inline;}
+
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+ul.pagination li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+ul.pagination li a:hover:not(.active) {background-color: #ddd;}
+.xiangqing{
+    padding-top: 10px;
+}
+.imgb{
+	width:300px;
+	height:200px;
+}
+
+/*register*/
+.register{
+    width: 600px;
+    border:2px solid #a1a1a1;
+    padding:50px 70px;
+    background:white;
+    /*border-radius:10px;*/
+    box-shadow: 3px 3px 3px 3px #a1a1a1;
+    margin: 20px auto auto;
+}
+.register input{
+    margin: 10px;
+    height: 40px;
+    width: 200px;
+
+}
+.registerForm{
+    width: 200px;
+    margin: auto;
+
+}
+/*comment*/
+.detils{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 400px;
+    text-indent: 20px;
+    height:210px;
+}
+.comment{
+    border:2px solid #a1a1a1;
+    padding:10px 20px;
+    background:white;
+    width:500px;
+    border-radius:10px;
+}
+/*orderItem*/
+.orderItem{
+    border:2px solid #a1a1a1;
+    padding:10px 20px;
+    background:white;
+    width:700px;
+    box-shadow: 3px 3px 3px #dddddd;
+    /*float: left;*/
+    margin: auto;
+}
+.orderNum{
+    margin-left: 5px;
+}
+.orderPrice{
+    float: right;
+}
+.orderBtn{
+    clear: both;
+    margin-left: 570px;
+    margin-top: 10px;
+}
+/*indexsys*/
+.sysright{
+    margin-left: 25%;
+    padding: 1px 16px;
+    height: 1000px;
+
+}
+.sysul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    background-color: #f1f1f1;
+    /*position: fixed;*/
+    height: 1000px;
+    overflow: auto;
+    text-align: center;
+    float: left;
+
+}
+.sysli a{
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.sysli a.active{
+    background-color: #4CAF50;
+    color: white;
+}
+.sysli a:hover:not(.active){
+    background-color: #555;
+    color: white;
+}
+/*foodlist*/
+.table1,.table1 tr th,.table1 tr td{
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.table1{
+    border-collapse: collapse;
+    /*padding: 10px;*/
+    text-align: center;
+}
+/*foodAdd*/
+.foodadd{
+    width: 600px;
+    border:2px solid #a1a1a1;
+    padding:50px 70px;
+    background:white;
+    /*border-radius:10px;*/
+    box-shadow: 3px 3px 3px 3px #a1a1a1;
+    margin: 20px auto auto;
+}
+.foodadd tr td{
+    padding: 10px;
+}
+.foodaddbtn{
+    margin: auto;
+    width: 100px;
+}

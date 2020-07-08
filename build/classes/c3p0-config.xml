@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+	<!-- 这是默认配置信息 -->
+	<default-config>
+		<!-- 连接四大参数配置 -->
+		<property name="jdbcUrl">jdbc:mysql://localhost:3306/restaurant?useSSL=false</property>
+		<property name="driverClass">com.mysql.jdbc.Driver</property>
+		<property name="user">root</property>
+		<property name="password">123456</property>
+		<!-- 池参数配置 -->
+		<!--如果连接池数据连接不够时，一次增长数  -->
+		<property name="acquireIncrement">10</property>
+		<!--初始化连接数  -->
+		<property name="initialPoolSize">10</property>
+		<!--最大连接数  -->
+		<property name="maxPoolSize">100</property>
+		<!--连接的最大空闲时间  -->
+		<property name="maxIdleTime">60</property>
+		<!--最小连接数  -->
+		<property name="minPoolSize">5</property>
+	</default-config>
+	
+	
+</c3p0-config>
+
